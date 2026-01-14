@@ -58,14 +58,7 @@ export default function Home() {
                 </div>
 
                 {/* SIDEBAR */}
-                <div className="social-sidebar">
-                    <a href="#" className="social-icon">➤</a>
-                    <a href="#" className="social-icon">📞</a>
-                    <a href="#" className="social-icon">💬</a>
-                    <a href="#" className="social-icon">📘</a>
-                    <a href="#" className="social-icon">📷</a>
-                    <a href="#" className="social-icon">in</a>
-                </div>
+
 
                 <div className="top-btn">
                     <span>↑</span>
