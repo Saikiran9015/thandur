@@ -60,10 +60,7 @@ export default function Home() {
                 {/* SIDEBAR */}
 
 
-                <div className="top-btn">
-                    <span>↑</span>
-                    <span className="top-text">TOP</span>
-                </div>
+
             </section>
 
             {/* OUR PRODUCT SECTION */}
