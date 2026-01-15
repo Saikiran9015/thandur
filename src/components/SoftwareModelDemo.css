@@ -285,60 +285,83 @@
 
 /* Print Styles */
 @media print {
+
+    /* Hide everything by default */
     body * {
-        visibility: hidden;
+        visibility: hidden !important;
     }
 
+    /* Show only the design container and its contents */
     .section-container,
     .section-container * {
-        visibility: visible;
+        visibility: visible !important;
     }
 
+    /* Override layout for print */
     .section-container {
-        padding: 0;
-        margin: 0;
-        background: white;
-        color: black;
         position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
         left: 0;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: white !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
+    /* Hide UI controls */
     .toolbar,
     .action-panel,
     .section-title,
+    nav,
     .navbar,
-    footer {
+    footer,
+    .button-group,
+    .success-message,
+    .status-indicator {
         display: none !important;
     }
 
     .canvas-wrapper {
-        border: none;
-        box-shadow: none;
-        background: white;
-        padding: 0;
+        border: none !important;
+        box-shadow: none !important;
+        background: white !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .phone-template {
-        box-shadow: none;
-        border: 2px solid #000;
+        box-shadow: none !important;
+        border: 1px solid #000 !important;
         background: white !important;
-        /* Force white background for saving ink */
         print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
     }
 
-    /* Ensure elements are visible on white background */
+    /* Ensure draggable elements are visible */
     .draggable-element {
         color: black !important;
     }
 
-    .camera-module {
-        border: 1px solid #000;
+    .draggable-element img {
+        display: block !important;
+    }
+
+    /* Ensure canvas (drawings) are visible */
+    .drawing-layer {
+        display: block !important;
+        background: transparent !important;
+    }
+
+    /* Hide selection indicators */
+    .selection-box,
+    .draggable-element.selected {
+        outline: none !important;
     }
 }
