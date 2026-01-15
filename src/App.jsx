@@ -8,6 +8,7 @@ import BookNow from "./components/BookNow";
 import Warranty from "./components/Warranty";
 import BecomePartner from "./components/BecomePartner";
 import Footer from "./components/Footer";
+import SoftwareModelDemo from "./components/SoftwareModelDemo";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/book-now" element={<BookNow />} />
         <Route path="/warranty" element={<Warranty />} />
         <Route path="/become-partner" element={<BecomePartner />} />
+        <Route path="/software-demo" element={<SoftwareModelDemo />} />
       </Routes>
       <Footer />
     </Router>

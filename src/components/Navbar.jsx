@@ -15,6 +15,7 @@ export default function Navbar() {
                 <Link to="/location">Location</Link>
                 <Link to="/faq">FAQ</Link>
                 <Link to="/contact">Get In Touch</Link>
+                <Link to="/software-demo">Demo</Link>
             </nav>
 
             <div className="nav-buttons">
