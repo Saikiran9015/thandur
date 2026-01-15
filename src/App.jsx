@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import BookNow from "./components/BookNow";
 import Warranty from "./components/Warranty";
 import BecomePartner from "./components/BecomePartner";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/warranty" element={<Warranty />} />
         <Route path="/become-partner" element={<BecomePartner />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

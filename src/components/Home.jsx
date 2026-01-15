@@ -73,33 +73,32 @@ export default function Home() {
 
                     {/* RIGHT CONTENT */}
                     <div className="product-content">
-                        <h2>OUR PRODUCT</h2>
+                        <h2>THUNDER</h2>
+                        <h4 style={{ color: "#00e5ff", marginBottom: "30px", fontSize: "24px", letterSpacing: "2px" }}>UNBREAKABLE PROTECTION</h4>
                         <p>
-                            This is the beginning of an alternative solution to add life to your
-                            most liked products. Break Protection is the world's first device
-                            protection which comes with Warranty and Guarantee.
+                            When strength meets innovation, protection becomes THUNDER.
                             <br /><br />
-                            With Break Protection, we guarantee that your gadget will not break
-                            on normal use. This transparent full body protection is unique in its
-                            design and lets the colour and style of your phone shine through.
-                            Break Protection provides a comprehensive solution to all worries
-                            related to device care + protection.
+                            Engineered with military-grade material, THUNDER delivers unmatched durability while
+                            staying completely invisible on your device.
                         </p>
 
-                        <button className="product-btn">
-                            JUST RELAX … YOUR DEVICE IS SAFE WITH BREAK PROTECTION.
-                        </button>
+                        <h3 style={{ marginTop: "40px", marginBottom: "25px", color: "#fff" }}>WHY THUNDER?</h3>
 
-                        <div className="product-features">
-                            <div>
-                                <span>Unbreakable protection</span>
-                                <span>Guarantee on Screen Damage</span>
+                        <div className="product-features" style={{ flexDirection: "column", gap: "30px" }}>
+                            <div style={{ gap: "15px" }}>
+                                <span><strong> Unbreakable Strength:</strong> Built to absorb extreme impact and resist cracks.</span>
+                                <span><strong> Military-Grade Material:</strong> Tested for toughness and long-lasting performance.</span>
+                                <span><strong> Self-Healing Technology:</strong> Minor scratches disappear automatically over time.</span>
+                                <span><strong> Anti-Scratch Coating:</strong> Keeps your screen looking brand new.</span>
                             </div>
-                            <div>
-                                <span>Full coverage</span>
-                                <span>Almost invisible : to show off your phone</span>
+                            <div style={{ gap: "15px" }}>
+                                <span><strong> Invisible Finish:</strong> Crystal-clear protection with zero visual compromise.</span>
+                                <span><strong> Edge-to-Edge Coverage:</strong> Complete protection from corner to corner.</span>
+                                <span><strong>Replacement Warranty:</strong> Peace of mind with guaranteed replacement support.*</span>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </section>

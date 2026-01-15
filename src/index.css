@@ -1,4 +1,14 @@
+:root {
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-accent: #808080;
+  --color-accent-light: #cccccc;
+  --color-border: #333333;
+}
+
 body {
   margin: 0;
-  background: black;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
